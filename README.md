@@ -1,10 +1,5 @@
 # Build and Deployment of Maven Web-app  
 ------------------------------------------------------------------------------------------
-~ Code is usually available in GITHUB Repo. We have to create a Jenkins job that job should take code from GITHUB repo. It should compile and package that code using Maven, and then the war file gets generated. This war file should be deployed into the Tomcat Webserver. So, here we are going to do Build & Deployment Process.
-
-
-~ Whenever we do any changes in the Source Code available in the GITHUB Repo, automatically the jenkins job should build and package the updated code and deploy into the webserver.
-
 
 ~ By default the Tomcat will run on Port No. 8080
 
