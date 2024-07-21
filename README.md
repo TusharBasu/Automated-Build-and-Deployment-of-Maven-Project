@@ -1,4 +1,4 @@
-# Build and Deployment of Maven Web-app
+# Build and Deployment of Maven Web-app  
 ------------------------------------------------------------------------------------------
 ~ Code is usually available in GITHUB Repo. We have to create a Jenkins job that job should take code from GITHUB repo. It should compile and package that code using Maven, and then the war file gets generated. This war file should be deployed into the Tomcat Webserver. So, here we are going to do Build & Deployment Process.
 
