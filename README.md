@@ -175,6 +175,3 @@ ___________________________________________________________________________
 Step 3: Creating a Jenkins job and for that Jenkins job we will give permission to deploy
 ___________________________________________________________________________
 Add JDK, GIT, MAVEN in Jenkins Browser Page by going into Global Tools Configuration
-
-
-Repo URL: https://github.com/KastroVKiran/Internship-Studio-MavenWebApp.git
