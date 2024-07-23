@@ -200,5 +200,11 @@ Jenkins Dashboard ----> Manage Jenkins ----> Mange Plugins ----> Available Plugi
 
 ___________________________________________________________________________
 Step 3: Creating a Jenkins job and for that Jenkins job we will give permission to deploy
+
+#Configure the Jenkins and it's all settings.
+
+![image](https://github.com/user-attachments/assets/7fbe4ec3-0623-4153-929f-d1b88fc2d05f)
+
+
 ___________________________________________________________________________
 Add JDK, GIT, MAVEN in Jenkins Browser Page by going into Global Tools Configuration
