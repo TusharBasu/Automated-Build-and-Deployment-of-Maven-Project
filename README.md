@@ -1,4 +1,4 @@
-# Build and Deployment of Maven Web-app  
+# Automated Build and Deployment of Maven Web-app  
 ------------------------------------------------------------------------------------------
 # **Project Architecture**
 ![image](https://github.com/user-attachments/assets/3c9ebc38-98e1-47d8-9d9d-ee82fa9fcc42)
