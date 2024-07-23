@@ -205,6 +205,13 @@ Step 3: Creating a Jenkins job and for that Jenkins job we will give permission 
 
 ![image](https://github.com/user-attachments/assets/7fbe4ec3-0623-4153-929f-d1b88fc2d05f)
 
+#Successfully Build
+
+![image](https://github.com/user-attachments/assets/b4729194-7e31-4733-974f-c9f22e309aaa)
+
+#Successfully Deployed Maven project
+
+![image](https://github.com/user-attachments/assets/60c4aa85-2c5f-4301-b8aa-7ecaf3bb85eb)
 
 ___________________________________________________________________________
 Add JDK, GIT, MAVEN in Jenkins Browser Page by going into Global Tools Configuration
