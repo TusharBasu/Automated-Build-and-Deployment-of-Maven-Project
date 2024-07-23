@@ -21,6 +21,9 @@ Part 1
 ========
 1. Create an EC2 Instance - Connect to the instance using MobaXTerm Tool.
 
+![image](https://github.com/user-attachments/assets/cc79b451-22c7-4e3a-8d6a-798cc3c4c930)
+
+
 
 ========
 Part 2
@@ -42,18 +45,27 @@ JENKINS INSTALLATION ON LINUX EC2 INSTANCE
         sudo amazon-linux-extras install java-openjdk11 -y
 
 
+
         java -version
+        
+![image](https://github.com/user-attachments/assets/a7f44c65-c1e2-4455-af80-7cf4c0a0b6d0)
+
 
 
 ~ Install Jenkins:
         sudo yum install jenkins -y
+![image](https://github.com/user-attachments/assets/66826893-fd1a-4f6e-b9b3-77ba2cc3f968)
+
 
 
 ~ Lets start, enable, and check the status of Jenkins 
         sudo systemctl enable jenkins        
         sudo systemctl start jenkins
         sudo systemctl status jenkins
-                You should see Active & Running in Green Colour, which means the Jenkins Tool is successfully                                 installed
+                You should see Active & Running in Green Colour, which means the Jenkins Tool is successfully installed
+
+![image](https://github.com/user-attachments/assets/7f385f7e-6b5e-4d13-bd5f-2cb792f20870)
+
 
 
 ~ Check the jenkins accessibility. By default the Jenkins will run on Port No. 8080.
@@ -62,6 +74,13 @@ So, open Port No. 8080 for EC2 instance to access Jenkins
 
 
 Open new tab: <Paste the Public IP of Instance>:8080 ----> You will see the Jenkins Home Page ----> Now we have to Unlock the Jenkins ----> You will see a code in the red colour ----> Copy the code in red colour ----> Go to MobaXTerm ----> sudo cat <paste the red color code> ----> You will see a password. Copy that password and paste in jenkins home page ----> Click on suggested plugins ----> You will see "Create First Admin User" ----> Enter Username, Password, Name, Email Id ----> Save and Continue ----> Jenkins URL:http://52.14.0.208:8080/  ----> Save and Finish ----> You will see "Jenkins is ready!" ----> Click on "Start using jenkins" ----> Now you can see the jenkins home page and here you can create Jenkins Jobs.
+
+![image](https://github.com/user-attachments/assets/46906bf3-d2e1-4929-a547-2501911013a1)
+
+# Welcome to jenkins Dashboard!!!
+
+![image](https://github.com/user-attachments/assets/be222714-863a-498a-9cf6-ef3b4e53cf27)
+
 
 
 ========
@@ -102,6 +121,11 @@ Shutdown the tomcat server ----> cd bin ----> ./shutdown.sh  ----> ./startup.sh
 Open new tab: <Paste the Public IP of Instance>:9090 ----> You will see the Tomcat Home Page
 Go to browser and check for tomcat accessibility. You are now able to access Tomcat and Jenkins in the same instance.
 
+# Welcome to Tomcat server!!! 
+![image](https://github.com/user-attachments/assets/d7c5c990-9a94-41d6-a835-2f23d138b58f)
+
+
+
 
 Here we can access only the Home page of Tomcat. 
 Inorder to access complete tomcat server, we need to do the configuration in "context.xml" file.
@@ -129,6 +153,10 @@ cd bin
 
 
 Access Tomcat on Browser ----> Click on Server Status ----> Enter the username (admin) and password (admin)
+
+# Now we can access manager and all others page of tomcat serever.!!!
+
+![image](https://github.com/user-attachments/assets/4b9a2868-1a50-4fac-8505-6ee01e42d332)
 
 
 Install GIT in EC2 Instance where Jenkins is running
