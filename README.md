@@ -3,6 +3,9 @@
 # **Project Architecture**
 ![Screenshot 2024-07-23 153635](https://github.com/user-attachments/assets/a041e797-10ac-48c5-b12a-ba9d75bf13cb)
 
+# Project Preview. 
+
+
 
 
 ~ By default the Tomcat will run on Port No. 8080
@@ -205,7 +208,7 @@ Step 3: Creating a Jenkins job and for that Jenkins job we will give permission 
 
 ![image](https://github.com/user-attachments/assets/7fbe4ec3-0623-4153-929f-d1b88fc2d05f)
 
-#Successfully Build
+# Successfully Build
 
 ![image](https://github.com/user-attachments/assets/b4729194-7e31-4733-974f-c9f22e309aaa)
 
