@@ -1,7 +1,8 @@
 # Automated Build and Deployment of Maven Web-app  
 ------------------------------------------------------------------------------------------
 # **Project Architecture**
-![image](https://github.com/user-attachments/assets/3c9ebc38-98e1-47d8-9d9d-ee82fa9fcc42)
+![Screenshot 2024-07-23 153635](https://github.com/user-attachments/assets/a041e797-10ac-48c5-b12a-ba9d75bf13cb)
+
 
 
 ~ By default the Tomcat will run on Port No. 8080
