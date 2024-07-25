@@ -9,9 +9,6 @@
 
 
 
-https://github.com/user-attachments/assets/c5000ad0-68af-4e97-adf8-338e9b87ab86
-
-
 
 ~ By default the Tomcat will run on Port No. 8080
 
